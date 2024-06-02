@@ -74,14 +74,19 @@ nav ul {
 }
 
 .h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p {
     font-size: 18px;
 }
 
-.text-header {
+.text-light {
     color: #f9faf8;
 }
 
-.text-subheader {
+.text-grey {
     color: #e5e7eb;
 }
 
@@ -89,12 +94,26 @@ nav ul {
     color: #1f2937;
 }
 
+.font-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: .5em;
+}
+
+.quote-attribution {
+    text-align: right;
+}
+
 .grey-background {
     background-color: #e5e7eb;
 }
 
-.button-blue {
+.blue-background {
     background-color: #3882F6;
+}
+
+.button {
     border: none;
     padding: .75em 1.25em;
     text-align: center;
@@ -103,6 +122,16 @@ nav ul {
     width: fit-content;
     font-weight: 500;
     border-radius: 8px;
+    font-size: 16px;
+}
+
+.button-outline {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    background: none;
+    color: #f9faf8;
+    padding: .5em 1em;
     font-size: 16px;
 }
 
@@ -133,4 +162,21 @@ nav ul {
     border-style: solid;
     border-radius: 8px;
     border-color: #3882F6;
+}
+.cta {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    border-radius: 8px;
+    padding: 2.5em 5em;
+    box-sizing: border-box;
+}
+.container-quote {
+    max-width: 700px;
+    margin: 2em;
+}
+
+.container-verticaltext {
+    display:flex;
+    flex-direction: column;
 }

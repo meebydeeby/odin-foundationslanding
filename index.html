@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="section-hero"> 
-        <div class="topbar text-header">
+        <div class="topbar text-light">
             <div class="logo-text">calcifer kiki chen.</div>
             <nav>
-                <ul>
+                <ul class="text-grey">
                     <li>dummy link 1</li>
                     <li>dummy link 2</li>
                     <li>dummy link 3</li>
@@ -21,11 +21,13 @@
         <div class="content-hero">
             <div class="hero-text">
                 <div>
-                    <div class="h1 text-header">Hey! Welcome to my practice website.</div>
-                    <div class="h3 text-subheader">I'm a UX Designer learning web development. Everything on here is made using HTML and CSS.</div>
+                    <div class="h1 text-light">Hey! Welcome to my practice website.</div>
+                    <div class="p text-grey">I'm a UX Designer learning web development. Everything on here is made using HTML and CSS.</div>
                 </div>
+                <a href="https://kikidesigns.co/">
+                    <button class="button blue-background text-light">Take a look at my design work!</button>
+                </a>
                 
-                <button class="button-blue text-header">Take a look at my design work!</button>
             </div>
             <div class="hero-img-container">
                 <img src="heroimage.jpg"/>
@@ -53,9 +55,22 @@
             </div>
         </div>
     </div>
-    <div class="section-content grey-background">
-        <div>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
-        <div></div>
+    <div class="section-content grey-background text-dark">
+        <div class="container-quote">
+            <div class="font-quote">"This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."</div>
+            <div class="h3 quote-attribution">- The person saying the quote</div>
+        </div>
+    </div>
+    <div class="section-content">
+        <div class="cta blue-background">
+            <div class="container-verticaltext text-light">
+                <div class="h3">Catchy tagline to get your attention</div>
+                <div class="p">Text for the cta</div>
+            </div>
+            <button class="button-outline ">
+                Click
+            </button>
+        </div>
     </div>
 </body>
 </html>
